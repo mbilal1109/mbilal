@@ -9,6 +9,8 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #d1dede;
+    position: fixed;
+    width: 100%;
     padding: 15px;
 }
 
@@ -63,16 +65,43 @@ body {
 
 /* About Me */
 #about-me {
+    background-color: #1D201F;
+}
+.container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1D201F;
-    padding: 100px;
-    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 60px;
+}
+
+#about-me h2 {
+    color: #d1dede;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#about-me p {
+    color: #d1dede;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    padding: 40px;
+}
+
+.my-image {
+    width: 900px;
+    padding: 20px;
 }
 
 .headshot {
-    width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 165px;
 }
+
+/* Projects */
