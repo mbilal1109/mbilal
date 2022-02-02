@@ -56,6 +56,7 @@ body {
 
 .heading h1 {
     font-size: 36px;
+    text-align: center;
 }
 
 .heading p {
@@ -72,7 +73,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1D201F;
-    flex-direction: row;
     padding: 60px;
 }
 
@@ -105,3 +105,12 @@ body {
 }
 
 /* Projects */
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+    .container {
+        flex-wrap: wrap;
+    }
+} 
